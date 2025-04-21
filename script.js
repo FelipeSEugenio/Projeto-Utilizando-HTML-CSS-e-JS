@@ -7,7 +7,7 @@ function toggleMode() {
     if(html.classList.contains('light')) {
        img.setAttribute('src', './assets/Avatarwhite.png')
     } else {
-        img.setAttribute('src', './assets/Avatar.png')
+        img.setAttribute('src', './assets/avatar.png')
     }
 
 
