@@ -1,8 +1,8 @@
 function toggleMode() {
     const html = document.documentElement
     html.classList.toggle('light')
-    /* ou usar */
-    //pegar a tag img
+    /* ou usar */ // or use
+    //pegar a tag img / take img tag
     const img = document.querySelector("#profile img")
     if(html.classList.contains('light')) {
        img.setAttribute('src', 'assets/Avatarwhite.png')
@@ -13,6 +13,6 @@ function toggleMode() {
 
 
 
-    // substituir a imagem
+    // substituir a imagem //substitute image
 
 }
